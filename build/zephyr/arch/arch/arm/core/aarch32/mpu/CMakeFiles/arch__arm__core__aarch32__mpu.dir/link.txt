@@ -1,0 +1,2 @@
+ccache /opt/toolchains/zephyr-sdk-0.14.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libarch__arm__core__aarch32__mpu.a CMakeFiles/arch__arm__core__aarch32__mpu.dir/arm_core_mpu.c.obj CMakeFiles/arch__arm__core__aarch32__mpu.dir/arm_mpu.c.obj
+ccache /opt/toolchains/zephyr-sdk-0.14.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libarch__arm__core__aarch32__mpu.a

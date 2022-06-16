@@ -1,0 +1,2 @@
+ccache /opt/toolchains/zephyr-sdk-0.14.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libisr_tables.a CMakeFiles/isr_tables.dir/isr_tables.c.obj
+ccache /opt/toolchains/zephyr-sdk-0.14.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libisr_tables.a

@@ -1,0 +1,2 @@
+ccache /opt/toolchains/zephyr-sdk-0.14.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libdrivers__i2c.a CMakeFiles/drivers__i2c.dir/i2c_common.c.obj CMakeFiles/drivers__i2c.dir/i2c_ll_stm32_v2.c.obj CMakeFiles/drivers__i2c.dir/i2c_ll_stm32.c.obj
+ccache /opt/toolchains/zephyr-sdk-0.14.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libdrivers__i2c.a

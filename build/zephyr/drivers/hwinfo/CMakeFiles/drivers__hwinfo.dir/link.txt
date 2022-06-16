@@ -1,0 +1,2 @@
+ccache /opt/toolchains/zephyr-sdk-0.14.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-ar qc libdrivers__hwinfo.a CMakeFiles/drivers__hwinfo.dir/hwinfo_weak_impl.c.obj CMakeFiles/drivers__hwinfo.dir/hwinfo_stm32.c.obj
+ccache /opt/toolchains/zephyr-sdk-0.14.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-ranlib libdrivers__hwinfo.a

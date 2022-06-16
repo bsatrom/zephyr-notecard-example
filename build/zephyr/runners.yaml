@@ -1,0 +1,35 @@
+# Available runners configured by board.cmake.
+runners:
+- openocd
+- jlink
+
+# Default flash runner if --runner is not given.
+flash-runner: openocd
+
+# Default debug runner if --runner is not given.
+debug-runner: openocd
+
+# Common runner configuration values.
+config:
+  board_dir: /workdir/zephyr/boards/arm/swan_r5
+  # Build outputs:
+  elf_file: zephyr.elf
+  hex_file: zephyr.hex
+  bin_file: zephyr.bin
+  # Host tools:
+  gdb: /opt/toolchains/zephyr-sdk-0.14.0/arm-zephyr-eabi/bin/arm-zephyr-eabi-gdb
+  openocd: /opt/toolchains/zephyr-sdk-0.14.0/sysroots/x86_64-pokysdk-linux/usr/bin/openocd
+  openocd_search:
+    - /opt/toolchains/zephyr-sdk-0.14.0/sysroots/x86_64-pokysdk-linux/usr/share/openocd/scripts
+
+# Runner specific arguments
+args:
+  openocd:
+    - --cmd-load
+    - flash write_image erase
+    - --cmd-verify
+    - verify_image
+  jlink:
+    - --dt-flash=y
+    - --device=STM32L4R5ZI
+    - --speed=4000

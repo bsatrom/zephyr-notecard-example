@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/app.dir/note-c/n_atof.c.obj"
+  "CMakeFiles/app.dir/note-c/n_atof.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_b64.c.obj"
+  "CMakeFiles/app.dir/note-c/n_b64.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_cjson.c.obj"
+  "CMakeFiles/app.dir/note-c/n_cjson.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_cjson_helpers.c.obj"
+  "CMakeFiles/app.dir/note-c/n_cjson_helpers.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_const.c.obj"
+  "CMakeFiles/app.dir/note-c/n_const.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_ftoa.c.obj"
+  "CMakeFiles/app.dir/note-c/n_ftoa.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_helpers.c.obj"
+  "CMakeFiles/app.dir/note-c/n_helpers.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_hooks.c.obj"
+  "CMakeFiles/app.dir/note-c/n_hooks.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_i2c.c.obj"
+  "CMakeFiles/app.dir/note-c/n_i2c.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_md5.c.obj"
+  "CMakeFiles/app.dir/note-c/n_md5.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_printf.c.obj"
+  "CMakeFiles/app.dir/note-c/n_printf.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_request.c.obj"
+  "CMakeFiles/app.dir/note-c/n_request.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_serial.c.obj"
+  "CMakeFiles/app.dir/note-c/n_serial.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_str.c.obj"
+  "CMakeFiles/app.dir/note-c/n_str.c.obj.d"
+  "CMakeFiles/app.dir/note-c/n_ua.c.obj"
+  "CMakeFiles/app.dir/note-c/n_ua.c.obj.d"
+  "CMakeFiles/app.dir/src/main.c.obj"
+  "CMakeFiles/app.dir/src/main.c.obj.d"
+  "app/libapp.a"
+  "app/libapp.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/app.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

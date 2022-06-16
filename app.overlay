@@ -1,0 +1,42 @@
+/*
+ * Copyright (c) 2021 Nordic Semiconductor ASA
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
+/ {
+	chosen {
+		zephyr,console = &cdc_acm_uart0;
+	};
+};
+
+&zephyr_udc0 {
+	cdc_acm_uart0: cdc_acm_uart0 {
+		compatible = "zephyr,cdc-acm-uart";
+		label = "CDC_ACM_0";
+	};
+};
+
+&i2c1 {
+	bme680: bme680@77 {
+		compatible = "bosch,bme680";
+		reg = <0x77>;
+		label = "BME680";
+	};
+
+	ssd1306@3c {
+        compatible = "solomon,ssd1306fb";
+        reg = <0x3c>;
+        label = "SSD1306";
+        height = <32>;
+        width  = <128>;
+        segment-offset  = <0>;
+        page-offset     = <0>;
+        display-offset  = <0>;
+        multiplex-ratio = <31>;
+        prechargep      = <0xD1>;
+        segment-remap;
+        com-invdir;
+        com-sequential;
+    };
+};
